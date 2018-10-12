@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>181</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>初期化されていないメモリ 'fd_motor' を使用しています。</DESCRIPTION>
+    <FUNCTION>serial_setup</FUNCTION>
+    <DECORATED>?serial_setup@@YAXXZ</DECORATED>
+    <FUNCLINE>161</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>164</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>宣言</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'fd_motor' が初期化されていません</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用法</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'fd_motor' は 'PurgeComm' への入力です (c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winbase.h:2108 で宣言)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用法</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'fd_motor' が使用されますが、初期化されていない可能性があります</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>181</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>初期化されていないメモリ '*fd_motor' を使用しています。</DESCRIPTION>
+    <FUNCTION>serial_setup</FUNCTION>
+    <DECORATED>?serial_setup@@YAXXZ</DECORATED>
+    <FUNCLINE>161</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>164</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>169</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>173</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>176</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>宣言</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*fd_motor' が初期化されていません</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>使用法</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'*fd_motor' は 'PurgeComm' への入力です (c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\winbase.h:2108 で宣言)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+        <FILENAME>accel2.cpp</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>使用法</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*fd_motor' が使用されますが、初期化されていない可能性があります</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>336</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>戻り値が無視されました: 'ReadFile'</DESCRIPTION>
+    <FUNCTION>get_pos_ref</FUNCTION>
+    <DECORATED>?get_pos_ref@@YANPEAX@Z</DECORATED>
+    <FUNCLINE>322</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>340</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>get_pos_ref</FUNCTION>
+    <DECORATED>?get_pos_ref@@YANPEAX@Z</DECORATED>
+    <FUNCLINE>322</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>340</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>get_pos_ref</FUNCTION>
+    <DECORATED>?get_pos_ref@@YANPEAX@Z</DECORATED>
+    <FUNCLINE>322</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>戻り値が無視されました: 'ReadFile'</DESCRIPTION>
+    <FUNCTION>get_psv_ref</FUNCTION>
+    <DECORATED>?get_psv_ref@@YANPEAX@Z</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>get_psv_ref</FUNCTION>
+    <DECORATED>?get_psv_ref@@YANPEAX@Z</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>get_psv_ref</FUNCTION>
+    <DECORATED>?get_psv_ref@@YANPEAX@Z</DECORATED>
+    <FUNCLINE>347</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>387</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>戻り値が無視されました: 'ReadFile'</DESCRIPTION>
+    <FUNCTION>get_pwm_out</FUNCTION>
+    <DECORATED>?get_pwm_out@@YANPEAXNN@Z</DECORATED>
+    <FUNCLINE>371</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>438</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>戻り値が無視されました: 'ReadFile'</DESCRIPTION>
+    <FUNCTION>get_cef_ref</FUNCTION>
+    <DECORATED>?get_cef_ref@@YANPEAX@Z</DECORATED>
+    <FUNCLINE>422</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\</FILEPATH>
+      <FILENAME>accel2.cpp</FILENAME>
+      <LINE>450</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>get_cef_ref</FUNCTION>
+    <DECORATED>?get_cef_ref@@YANPEAX@Z</DECORATED>
+    <FUNCLINE>422</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

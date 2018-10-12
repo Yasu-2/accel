@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  accel2.cpp
+c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\accel2.cpp(1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\accel2.cpp(37): warning C4244: '初期化中': 'double' から 'DWORD' への変換です。データが失われる可能性があります。
+c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\accel2.cpp(407): warning C4244: '=': 'double' から 'unsigned char' への変換です。データが失われる可能性があります。
+c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\accel2.cpp(409): warning C4244: '=': 'double' から 'unsigned char' への変換です。データが失われる可能性があります。
+c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\accel2.cpp(419): warning C4244: '=': 'double' から 'unsigned char' への変換です。データが失われる可能性があります。
+c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\accel2.cpp(421): warning C4244: '=': 'double' から 'unsigned char' への変換です。データが失われる可能性があります。
+c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\accel2.cpp(774): error C3861: 'InetPton': 識別子が見つかりませんでした
+c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\accel2.cpp(774): warning C4805: '!=': 演算中の 'unknown-type' 型と 'bool' 型の混用は安全ではありません
+c:\users\daisuke\onedrive - 埼玉大学\アクセル制御\0910\serial\accel2.cpp(795): warning C4806: '!=': 安全でない演算: 'bool' 型から 'int' 型への上位変換を行うと与えられた定数に等しくなりません
